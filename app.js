@@ -1,9 +1,9 @@
 
-// age ko 30 update karo
+//check karo "name" property exist karti hai ya nahi
+
 let obj={
     name:"vishal",
     city:"pune",
     age:25
 }
-obj.age=30,
-console.log(obj);
+console.log("name" in obj);

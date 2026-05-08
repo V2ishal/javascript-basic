@@ -1,10 +1,19 @@
+// let student = {
+//   name: "Vishal",
+//   marks: {
+//     math: 80,
+//     science: 90
+//   }
+// };
+// print karo:
+// math marks
 
-//loop chala ke saari keys print karo
-let obj={
-    name:"rahul",
-    city:"pune",
-    gender:"male"
-}
-for(let key in obj){
-    console.log(key);
-}
+let student ={
+    name:"vishal",
+    marks:{
+        math:80,
+        science:90
+    }
+};
+console.log(student.marks.math);
+console.log(student.marks);

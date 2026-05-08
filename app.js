@@ -1,9 +1,10 @@
 
-//check karo "name" property exist karti hai ya nahi
-
+//loop chala ke saari keys print karo
 let obj={
-    name:"vishal",
+    name:"rahul",
     city:"pune",
-    age:25
+    gender:"male"
 }
-console.log("name" in obj);
+for(let key in obj){
+    console.log(key);
+}

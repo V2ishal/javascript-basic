@@ -1,10 +1,9 @@
-👉// Q2 try kar:
-//Object me new property add karo:
 
-city: "Pune"
+// age ko 30 update karo
 let obj={
     name:"vishal",
+    city:"pune",
     age:25
-};
-obj.city="pune";
+}
+obj.age=30,
 console.log(obj);

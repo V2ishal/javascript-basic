@@ -1,6 +1,10 @@
+👉// Q2 try kar:
+//Object me new property add karo:
+
+city: "Pune"
 let obj={
     name:"vishal",
     age:25
 };
-console.log(obj.name);
-console.log(obj.age);
+obj.city="pune";
+console.log(obj);

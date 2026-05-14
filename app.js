@@ -1,9 +1,14 @@
-//Q 1 string reverse
-let str=[1,2,3,4,5];
+//Q2 palindrome
+let str=["madam"];
 
-for (let i = 0; i<str.length/2; i++){
-    let temp=str[i];
-    str[i]=str[str.length-1-i];
-    str[str.lenght-1-i]=temp; 
+let palindrome="";
+for(let i=0; i<str.length; i++){
+
+    if(str[i]===str[str.lenght-1-i]){
+      palindrome="true";
+    }
+    else{
+        palindrome="false";
+    }
 }
-console.log(str);
+console.log(palindrome);

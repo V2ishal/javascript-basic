@@ -1,13 +1,12 @@
-// Q2 string palindrome or not?
+//q3 count vowels in string using for of loopes
 
-let str="madam";
-let ispalindrome="true";
+let str="vishal";
+let count=0;
 
-for(let i=0; i<str.length; i++){
-
-    if(str[i]!==str[str.length-1-i]){
-        ispalindrome="false";
-        break;
+for(let ub of str){
+    if(ub==="a"||ub==="e"||ub==="i"||ub==="o"||ub==="u"){
+        count++;
     }
 }
-console.log(ispalindrome);
+console.log(count);
+

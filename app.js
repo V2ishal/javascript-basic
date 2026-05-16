@@ -1,6 +1,5 @@
 //Q 1 string reverse
-let str="vishal";
-
+let str="rahul";
 let newstr="";
 
 for(let i=str.length-1; i>=0; i--){

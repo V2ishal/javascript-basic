@@ -1,13 +1,13 @@
-// Q2 string palindrome or not?
-
+//2 string is palindrome or not
 let str="madam";
-let ispalindrome="true";
+let palindrome="yes";
 
-for(let i=0; i<str.length; i++){
+for(let i=0; i<str.length/2; i++){
 
-    if(str[i]!==str[str.length-1-i]){
-        ispalindrome="false";
+    if(str[i] !== str[str.length-1-i]){
+        palindrome="false";
         break;
-    }
 }
-console.log(ispalindrome);
+}
+console.log(palindrome);
+

@@ -1,33 +1,12 @@
-//butterfly pattern 
-let n=4;
-for(let i=1; i<=n; i++){
-let count="";
-    for(let j=1; j<=i; j++){
-        count+="*";
-    }
-    let space=2*n-2*i;
-    for( let j=1; j<=space; j++){
-        count+=" ";
-    }
-    for(let j=1; j<=i; j++){
-        count+="*"; 
-    } 
-    console.log(count);
-}
-for(let i=n; i>=1; i--){
-    let count="";
-    
-    for(let j=1; j<=i; j++){
-        count+="*";
-    }
-    let space=2*n-2*i;
+//q4 vovels count using a normal for loopes
+let str="vishal";
+let count=0;
+for(let i=0; i<str.length; i++){
+let ch=str[i];
 
-    for(let j=1; j<=space; j++){
-        count+=" ";
-    }
-    for(let j=1; j<=i; j++){
-        count+="*";
-    }
-    console.log(count);
+if(ch=="a"||ch=="e"||ch=="i"||ch=="o"||ch=="u"){
+    count++
 }
+}
+console.log(count);
 

@@ -1,15 +1,12 @@
 // vowels count using normal for loopes
+let str="rahul";
+let count=0;
 
-let str = "vishal";
-let count = 0;
+for(let i=0; i<str.length; i++){
+    str[i];
 
-for (let i = 0; i < str.length; i++) {
-    let ch = str[i];
-
-    if (ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u") {
+    if(str[i]=="a"||str[i]=="e"||str[i]=="i"||str[i]=="o"||str[i]=="u"){
         count++;
     }
 }
-
 console.log(count);
-

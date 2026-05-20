@@ -1,8 +1,7 @@
-//Q1 string reverse
+// string question
 let str="vishal";
-let newstring="";
-
-for(let i=str.length-1; i>=0; i++){
-   newstring=str[i];
+let a="";
+for(let i=str.length-1; i>=0; i--){
+   a+=str[i];
 }
-console.log(newstring);
+console.log(a);

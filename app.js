@@ -1,10 +1,10 @@
 //q1. string reverse
-let str="rahul";
-let newstr="";
+let str="vishal";
+let reverse="";
 
 for(let i=str.length-1; i>=0; i--){
-   newstr+=str[i];
+   reverse+=str[i];
 }
-console.log(newstr);
+console.log(reverse);
 
 

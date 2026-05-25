@@ -11,4 +11,3 @@ for(let i=0; i<str.length/2; i++){
    }
 }
 console.log(palindrome);
-console.log("text");

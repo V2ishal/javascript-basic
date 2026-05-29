@@ -1,9 +1,11 @@
-//q2 string is palindrome or not using method
-let str="madam";
+//Q.2 string is palindrome or not using method
+let str="nayan";
 let reversed=str.split("").reverse().join("");
+
 if(reversed===str){
-    console.log("paindrome");
+    console.log("string is palindrome");
 }
 else{
-    console.log("not a palindrome");
+    console.log("string is not palindrome");
 }
+

@@ -1,0 +1,17 @@
+//q 4 string under duplicate remove
+let str="abbcdde";
+let result="";
+
+for(let i=0; i<str.length; i++){
+let duplicate=false;
+    for(let j=0; j<result.length; j++){
+        if(str[i]==result[j]){
+            duplicate=true;
+            break;
+        }
+    }
+    if(duplicate==false){
+        result+=str[i];
+    }
+}
+console.log(result);

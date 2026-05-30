@@ -1,4 +1,4 @@
-//Q4 vovels count using normal for of loopes
+//Q4 vovels count using  for of loopes
 let student="nayan";
 let count=0;
 

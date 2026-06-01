@@ -1,11 +1,21 @@
-//Q 4 duplicate remove using include method
-let str="abbcdde";
-let result="";
+//q5 first non reapeating char in string
+let str = "swiss";
 
-for(let ch of str){
+let result = "";
 
-    if(!result.includes(ch)){
-        result+=ch;
+for (let i = 0; i < str.length; i++) {
+    let count = 0;
+
+    for (let j = 0; j < str.length; j++) {
+        if (str[i] === str[j]) {
+            count++;
+        }
+    }
+
+    if (count === 1) {
+        result = str[i];
+        break;
     }
 }
+
 console.log(result);

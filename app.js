@@ -6,7 +6,7 @@ let count=1;
 for(let i=0; i<str.length; i++){
 
     if(str[i]===str[i+1]){
-       count++;
+        count++;
     }
     else{
         result+=str[i]+count;

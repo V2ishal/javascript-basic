@@ -1,5 +1,5 @@
 //q 4 string under duplicate remove
-let str="abbcdde";
+let str="abac";
 let result="";
 
 for(let i=0; i<str.length; i++){
@@ -14,4 +14,4 @@ let duplicate=false;
         result+=str[i];
     }
 }
-console.log(result);
+console.log(result); 

@@ -14,4 +14,4 @@ let duplicate=false;
         result+=str[i];
     }
 }
-console.log(result); 
+console.log(result);

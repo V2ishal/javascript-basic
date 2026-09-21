@@ -1,5 +1,5 @@
 //Q 4 duplicate remove using include method
-let str="abbcdde";
+let str="abac";
 let result="";
 
 for(let ch of str){

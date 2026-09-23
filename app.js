@@ -6,7 +6,7 @@ for(let i=0; i<student.length; i++){
     let ch=student[i];
 
     if(ch==="a"||ch==="e"||ch==="i"||ch==="o"||ch==="u"){
-        count++
+        count++;
     }
 }
 console.log(count);

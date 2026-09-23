@@ -8,7 +8,7 @@ for(let ch of student){
         count++;
     }
 }
-console.log(count);
+console.log(count); 
 
 
 

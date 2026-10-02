@@ -1,5 +1,5 @@
 let str="vishal";
 
 let reverse=str.split("").reverse().join("");
-console.log(reverse);
+console.log(reverse); 
 
